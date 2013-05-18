@@ -11,7 +11,7 @@ namespace GoodMorning {
 		
 		static void Main(string[] args) {
 
-			Console.WriteLine("Pick a language and I will say hello!");
+			Console.WriteLine("Pick a language and I will say good morning!");
 			for(int i = (int)Languages.English ; i <= (int)Languages.End ; i++)
 				Console.WriteLine("{0}: {1}" , i , Enum.GetName(typeof(Languages) , i));
 
@@ -20,19 +20,19 @@ namespace GoodMorning {
 			int.TryParse(Console.ReadLine() , out choice);
 			switch(choice) {
 				case (int)Languages.English:
-					Console.WriteLine("Hello");
+					Console.WriteLine("Good Morning!");
 					break;
 
 				case (int)Languages.Italian:
-					Console.WriteLine("Ciao");
+					Console.WriteLine("Buongiorno");
 					break;
 
 				case (int)Languages.Spanish:
-					Console.WriteLine("¡Hola");
+					Console.WriteLine("¡Buenos días");
 					break;
 
 				case (int)Languages.German:
-					Console.WriteLine("Hallo");
+					Console.WriteLine("Guten Morgen");
 					break;
 
 				case (int)Languages.End:
