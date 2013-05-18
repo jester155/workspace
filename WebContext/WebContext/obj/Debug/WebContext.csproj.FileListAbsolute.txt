@@ -1,0 +1,8 @@
+C:\Users\Mark\documents\visual studio 2012\Projects\WebContext\WebContext\bin\Debug\WebContext.exe.config
+C:\Users\Mark\documents\visual studio 2012\Projects\WebContext\WebContext\bin\Debug\WebContext.exe
+C:\Users\Mark\documents\visual studio 2012\Projects\WebContext\WebContext\bin\Debug\WebContext.pdb
+C:\Users\Mark\documents\visual studio 2012\Projects\WebContext\WebContext\obj\Debug\WebContext.MainWindow.resources
+C:\Users\Mark\documents\visual studio 2012\Projects\WebContext\WebContext\obj\Debug\WebContext.Properties.Resources.resources
+C:\Users\Mark\documents\visual studio 2012\Projects\WebContext\WebContext\obj\Debug\WebContext.csproj.GenerateResource.Cache
+C:\Users\Mark\documents\visual studio 2012\Projects\WebContext\WebContext\obj\Debug\WebContext.exe
+C:\Users\Mark\documents\visual studio 2012\Projects\WebContext\WebContext\obj\Debug\WebContext.pdb

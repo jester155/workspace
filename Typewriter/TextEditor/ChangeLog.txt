@@ -1,0 +1,5 @@
+﻿04/23/2013
+	1. Added page count after 500 words to notification bottom bar.
+04/28/2013
+	1. Added the ability to print pages (formatting is not kept at this time
+	2. File -> Exit now closes the program properly

@@ -1,0 +1,10 @@
+c:\users\mark\documents\visual studio 2012\Projects\GameLogicLibrary\GameLogicLibrary\bin\Debug\GameLogicLibrary.dll
+c:\users\mark\documents\visual studio 2012\Projects\GameLogicLibrary\GameLogicLibrary\bin\Debug\GameLogicLibrary.pdb
+c:\users\mark\documents\visual studio 2012\Projects\GameLogicLibrary\GameLogicLibrary\obj\Debug\GameLogicLibrary.csprojResolveAssemblyReference.cache
+c:\users\mark\documents\visual studio 2012\Projects\GameLogicLibrary\GameLogicLibrary\obj\Debug\GameLogicLibrary.dll
+c:\users\mark\documents\visual studio 2012\Projects\GameLogicLibrary\GameLogicLibrary\obj\Debug\GameLogicLibrary.pdb
+F:\Coding\Workspace\GameLogicLibrary\GameLogicLibrary\bin\Debug\GameLogicLibrary.dll
+F:\Coding\Workspace\GameLogicLibrary\GameLogicLibrary\bin\Debug\GameLogicLibrary.pdb
+F:\Coding\Workspace\GameLogicLibrary\GameLogicLibrary\obj\Debug\GameLogicLibrary.csprojResolveAssemblyReference.cache
+F:\Coding\Workspace\GameLogicLibrary\GameLogicLibrary\obj\Debug\GameLogicLibrary.dll
+F:\Coding\Workspace\GameLogicLibrary\GameLogicLibrary\obj\Debug\GameLogicLibrary.pdb

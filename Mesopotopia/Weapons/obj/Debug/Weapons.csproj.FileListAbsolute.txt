@@ -1,0 +1,5 @@
+F:\Coding\Workspace\Mesopotopia\Weapons\bin\Debug\Weapons.dll
+F:\Coding\Workspace\Mesopotopia\Weapons\bin\Debug\Weapons.pdb
+F:\Coding\Workspace\Mesopotopia\Weapons\obj\Debug\Weapons.csprojResolveAssemblyReference.cache
+F:\Coding\Workspace\Mesopotopia\Weapons\obj\Debug\Weapons.dll
+F:\Coding\Workspace\Mesopotopia\Weapons\obj\Debug\Weapons.pdb

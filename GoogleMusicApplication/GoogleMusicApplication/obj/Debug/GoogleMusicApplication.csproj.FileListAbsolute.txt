@@ -1,0 +1,8 @@
+C:\Users\Mark\documents\visual studio 2012\Projects\GoogleMusicApplication\GoogleMusicApplication\bin\Debug\GoogleMusicApplication.exe.config
+C:\Users\Mark\documents\visual studio 2012\Projects\GoogleMusicApplication\GoogleMusicApplication\bin\Debug\GoogleMusicApplication.exe
+C:\Users\Mark\documents\visual studio 2012\Projects\GoogleMusicApplication\GoogleMusicApplication\bin\Debug\GoogleMusicApplication.pdb
+C:\Users\Mark\documents\visual studio 2012\Projects\GoogleMusicApplication\GoogleMusicApplication\obj\Debug\GoogleMusicApplication.GoogleMusic.resources
+C:\Users\Mark\documents\visual studio 2012\Projects\GoogleMusicApplication\GoogleMusicApplication\obj\Debug\GoogleMusicApplication.Properties.Resources.resources
+C:\Users\Mark\documents\visual studio 2012\Projects\GoogleMusicApplication\GoogleMusicApplication\obj\Debug\GoogleMusicApplication.csproj.GenerateResource.Cache
+C:\Users\Mark\documents\visual studio 2012\Projects\GoogleMusicApplication\GoogleMusicApplication\obj\Debug\GoogleMusicApplication.exe
+C:\Users\Mark\documents\visual studio 2012\Projects\GoogleMusicApplication\GoogleMusicApplication\obj\Debug\GoogleMusicApplication.pdb

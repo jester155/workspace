@@ -1,0 +1,10 @@
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Monsters\bin\Debug\Monsters.dll
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Monsters\bin\Debug\Monsters.pdb
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Monsters\obj\Debug\Monsters.dll
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Monsters\obj\Debug\Monsters.pdb
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Monsters\obj\Debug\Monsters.csprojResolveAssemblyReference.cache
+F:\Coding\Workspace\Mesopotopia\Monsters\obj\Debug\Monsters.csprojResolveAssemblyReference.cache
+F:\Coding\Workspace\Mesopotopia\Monsters\obj\Debug\Monsters.dll
+F:\Coding\Workspace\Mesopotopia\Monsters\bin\Debug\Monsters.dll
+F:\Coding\Workspace\Mesopotopia\Monsters\bin\Debug\Monsters.pdb
+F:\Coding\Workspace\Mesopotopia\Monsters\obj\Debug\Monsters.pdb

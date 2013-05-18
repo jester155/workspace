@@ -1,0 +1,12 @@
+C:\Users\mprovenzano\Desktop\Workspace\MiniGames\MiniGames\bin\Debug\MiniGames.exe.config
+C:\Users\mprovenzano\Desktop\Workspace\MiniGames\MiniGames\bin\Debug\MiniGames.exe
+C:\Users\mprovenzano\Desktop\Workspace\MiniGames\MiniGames\bin\Debug\MiniGames.pdb
+C:\Users\mprovenzano\Desktop\Workspace\MiniGames\MiniGames\obj\Debug\MiniGames.csprojResolveAssemblyReference.cache
+C:\Users\mprovenzano\Desktop\Workspace\MiniGames\MiniGames\obj\Debug\MiniGames.exe
+C:\Users\mprovenzano\Desktop\Workspace\MiniGames\MiniGames\obj\Debug\MiniGames.pdb
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\MiniGames\MiniGames\bin\Debug\MiniGames.exe.config
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\MiniGames\MiniGames\obj\Debug\MiniGames.exe
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\MiniGames\MiniGames\obj\Debug\MiniGames.pdb
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\MiniGames\MiniGames\bin\Debug\MiniGames.exe
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\MiniGames\MiniGames\bin\Debug\MiniGames.pdb
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\MiniGames\MiniGames\obj\Debug\MiniGames.csprojResolveAssemblyReference.cache

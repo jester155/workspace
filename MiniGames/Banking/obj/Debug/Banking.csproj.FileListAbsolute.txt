@@ -1,0 +1,5 @@
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\MiniGames\Banking\bin\Debug\Banking.dll
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\MiniGames\Banking\bin\Debug\Banking.pdb
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\MiniGames\Banking\obj\Debug\Banking.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\MiniGames\Banking\obj\Debug\Banking.dll
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\MiniGames\Banking\obj\Debug\Banking.pdb

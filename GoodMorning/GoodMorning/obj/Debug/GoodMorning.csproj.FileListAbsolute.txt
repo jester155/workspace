@@ -1,0 +1,6 @@
+F:\Coding\Workspace\GoodMorning\GoodMorning\bin\Debug\GoodMorning.exe.config
+F:\Coding\Workspace\GoodMorning\GoodMorning\obj\Debug\GoodMorning.csprojResolveAssemblyReference.cache
+F:\Coding\Workspace\GoodMorning\GoodMorning\bin\Debug\GoodMorning.exe
+F:\Coding\Workspace\GoodMorning\GoodMorning\bin\Debug\GoodMorning.pdb
+F:\Coding\Workspace\GoodMorning\GoodMorning\obj\Debug\GoodMorning.exe
+F:\Coding\Workspace\GoodMorning\GoodMorning\obj\Debug\GoodMorning.pdb

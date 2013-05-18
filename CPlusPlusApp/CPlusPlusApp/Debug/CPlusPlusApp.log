@@ -1,0 +1,502 @@
+﻿Build started 5/13/2013 12:54:48 AM.
+     1>Project "c:\Users\Mark\documents\visual studio 2012\Projects\CPlusPlusApp\CPlusPlusApp\CPlusPlusApp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CPlusPlusApp.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CPlusPlusApp.cpp Dice.cpp
+         Dice.cpp
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(87): error C2039: 'ToLower' : is not a member of 'std::basic_string<_Elem,_Traits,_Alloc>'
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>,
+                     _Alloc=std::allocator<wchar_t>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(89): error C2039: 'ToLower' : is not a member of 'std::basic_string<_Elem,_Traits,_Alloc>'
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>,
+                     _Alloc=std::allocator<wchar_t>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(101): error C3083: 'cin': the symbol to the left of a '::' must be a type
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(101): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::wstring'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(101): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)' : expects 3 arguments - 2 provided
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(470) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(101): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::wstring'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(101): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)' : expects 3 arguments - 2 provided
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(397) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(103): error C2039: 'ToLower' : is not a member of 'std::basic_string<_Elem,_Traits,_Alloc>'
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>,
+                     _Alloc=std::allocator<wchar_t>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(104): error C2664: 'void std::vector<_Ty>::push_back(std::basic_string<_Elem,_Traits,_Alloc> &&)' : cannot convert parameter 1 from 'std::wstring' to 'std::basic_string<_Elem,_Traits,_Alloc> &&'
+                 with
+                 [
+                     _Ty=std::string,
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 Reason: cannot convert from 'std::wstring' to 'std::basic_string<_Elem,_Traits,_Alloc>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(122): error C2039: 'ToLower' : is not a member of 'std::basic_string<_Elem,_Traits,_Alloc>'
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>,
+                     _Alloc=std::allocator<wchar_t>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(124): error C2039: 'ToLower' : is not a member of 'std::basic_string<_Elem,_Traits,_Alloc>'
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>,
+                     _Alloc=std::allocator<wchar_t>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(134): error C3083: 'cin': the symbol to the left of a '::' must be a type
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(134): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::wstring'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(134): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)' : expects 3 arguments - 2 provided
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(470) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(134): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::wstring'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(134): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)' : expects 3 arguments - 2 provided
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(397) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(137): error C2664: 'void std::vector<_Ty>::push_back(std::basic_string<_Elem,_Traits,_Alloc> &&)' : cannot convert parameter 1 from 'std::wstring' to 'std::basic_string<_Elem,_Traits,_Alloc> &&'
+                 with
+                 [
+                     _Ty=std::string,
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 Reason: cannot convert from 'std::wstring' to 'std::basic_string<_Elem,_Traits,_Alloc>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(144): error C2057: expected constant expression
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(144): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(144): error C2133: 'result' : unknown size
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(146): error C2440: 'initializing' : cannot convert from 'std::_Vector_iterator<_Myvec>' to 'std::_Vector_const_iterator<_Myvec>'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
+                 ]
+                 and
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(146): error C2678: binary '!=' : no operator found which takes a left-hand operand of type 'std::_Vector_const_iterator<_Myvec>' (or there is no acceptable conversion)
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(522): could be 'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(527): or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(532): or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(443): or       'bool std::operator !=(const std::error_code &,const std::error_condition &) throw()' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(450): or       'bool std::operator !=(const std::error_condition &,const std::error_code &) throw()' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(208): or       'bool std::_Vector_const_iterator<_Myvec>::operator !=(const std::_Vector_const_iterator<_Myvec> &) const'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 while trying to match the argument list '(std::_Vector_const_iterator<_Myvec>, std::_Vector_iterator<_Myvec>)'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 and
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(148): warning C4172: returning address of local variable or temporary
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(154): error C2057: expected constant expression
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(154): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(154): error C2133: 'results' : unknown size
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(156): error C2440: 'initializing' : cannot convert from 'std::_Vector_iterator<_Myvec>' to 'std::_Vector_const_iterator<_Myvec>'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
+                 ]
+                 and
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(156): error C2678: binary '!=' : no operator found which takes a left-hand operand of type 'std::_Vector_const_iterator<_Myvec>' (or there is no acceptable conversion)
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(522): could be 'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(527): or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(532): or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(443): or       'bool std::operator !=(const std::error_code &,const std::error_condition &) throw()' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(450): or       'bool std::operator !=(const std::error_condition &,const std::error_code &) throw()' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(208): or       'bool std::_Vector_const_iterator<_Myvec>::operator !=(const std::_Vector_const_iterator<_Myvec> &) const'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 while trying to match the argument list '(std::_Vector_const_iterator<_Myvec>, std::_Vector_iterator<_Myvec>)'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 and
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(158): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'std::_Vector_const_iterator<_Myvec>' (or there is no acceptable conversion)
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(507): could be 'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(512): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(517): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(426): or       'bool std::operator ==(const std::error_code &,const std::error_condition &) throw()' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(434): or       'bool std::operator ==(const std::error_condition &,const std::error_code &) throw()' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(202): or       'bool std::_Vector_const_iterator<_Myvec>::operator ==(const std::_Vector_const_iterator<_Myvec> &) const'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 while trying to match the argument list '(std::_Vector_const_iterator<_Myvec>, std::wstring)'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(159): error C2065: 'r' : undeclared identifier
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(159): error C2227: left of '->Next' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(160): warning C4172: returning address of local variable or temporary
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(176): error C2679: binary '=' : no operator found which takes a right-hand operand of type 'std::vector<_Ty>' (or there is no acceptable conversion)
+                 with
+                 [
+                     _Ty=std::wstring
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(802): could be 'std::vector<_Ty> &std::vector<_Ty>::operator =(std::vector<_Ty> &&)'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(903): or       'std::vector<_Ty> &std::vector<_Ty>::operator =(const std::vector<_Ty> &)'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+                 while trying to match the argument list '(std::vector<_Ty>, std::vector<_Ty>)'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+                 and
+                 [
+                     _Ty=std::wstring
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.cpp(5): error C2653: 'Dice' : is not a class or namespace name
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.cpp(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.cpp(7): warning C4508: 'Dice' : function should return a value; 'void' return type assumed
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.cpp(10): error C2653: 'Dice' : is not a class or namespace name
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.cpp(10): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Generating Code...
+         Compiling...
+         CPlusPlusApp.cpp
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(87): error C2039: 'ToLower' : is not a member of 'std::basic_string<_Elem,_Traits,_Alloc>'
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>,
+                     _Alloc=std::allocator<wchar_t>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(89): error C2039: 'ToLower' : is not a member of 'std::basic_string<_Elem,_Traits,_Alloc>'
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>,
+                     _Alloc=std::allocator<wchar_t>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(101): error C3083: 'cin': the symbol to the left of a '::' must be a type
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(101): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::wstring'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(101): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)' : expects 3 arguments - 2 provided
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(470) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(101): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::wstring'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(101): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)' : expects 3 arguments - 2 provided
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(397) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(103): error C2039: 'ToLower' : is not a member of 'std::basic_string<_Elem,_Traits,_Alloc>'
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>,
+                     _Alloc=std::allocator<wchar_t>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(104): error C2664: 'void std::vector<_Ty>::push_back(std::basic_string<_Elem,_Traits,_Alloc> &&)' : cannot convert parameter 1 from 'std::wstring' to 'std::basic_string<_Elem,_Traits,_Alloc> &&'
+                 with
+                 [
+                     _Ty=std::string,
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 Reason: cannot convert from 'std::wstring' to 'std::basic_string<_Elem,_Traits,_Alloc>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(122): error C2039: 'ToLower' : is not a member of 'std::basic_string<_Elem,_Traits,_Alloc>'
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>,
+                     _Alloc=std::allocator<wchar_t>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(124): error C2039: 'ToLower' : is not a member of 'std::basic_string<_Elem,_Traits,_Alloc>'
+                 with
+                 [
+                     _Elem=wchar_t,
+                     _Traits=std::char_traits<wchar_t>,
+                     _Alloc=std::allocator<wchar_t>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(134): error C3083: 'cin': the symbol to the left of a '::' must be a type
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(134): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::wstring'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(481) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(134): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)' : expects 3 arguments - 2 provided
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(470) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(134): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::wstring'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(450) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(134): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)' : expects 3 arguments - 2 provided
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string(397) : see declaration of 'std::getline'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(137): error C2664: 'void std::vector<_Ty>::push_back(std::basic_string<_Elem,_Traits,_Alloc> &&)' : cannot convert parameter 1 from 'std::wstring' to 'std::basic_string<_Elem,_Traits,_Alloc> &&'
+                 with
+                 [
+                     _Ty=std::string,
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 Reason: cannot convert from 'std::wstring' to 'std::basic_string<_Elem,_Traits,_Alloc>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(144): error C2057: expected constant expression
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(144): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(144): error C2133: 'result' : unknown size
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(146): error C2440: 'initializing' : cannot convert from 'std::_Vector_iterator<_Myvec>' to 'std::_Vector_const_iterator<_Myvec>'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
+                 ]
+                 and
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(146): error C2678: binary '!=' : no operator found which takes a left-hand operand of type 'std::_Vector_const_iterator<_Myvec>' (or there is no acceptable conversion)
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(522): could be 'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(527): or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(532): or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(443): or       'bool std::operator !=(const std::error_code &,const std::error_condition &) throw()' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(450): or       'bool std::operator !=(const std::error_condition &,const std::error_code &) throw()' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(208): or       'bool std::_Vector_const_iterator<_Myvec>::operator !=(const std::_Vector_const_iterator<_Myvec> &) const'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 while trying to match the argument list '(std::_Vector_const_iterator<_Myvec>, std::_Vector_iterator<_Myvec>)'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 and
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(148): warning C4172: returning address of local variable or temporary
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(154): error C2057: expected constant expression
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(154): error C2466: cannot allocate an array of constant size 0
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(154): error C2133: 'results' : unknown size
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(156): error C2440: 'initializing' : cannot convert from 'std::_Vector_iterator<_Myvec>' to 'std::_Vector_const_iterator<_Myvec>'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
+                 ]
+                 and
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(156): error C2678: binary '!=' : no operator found which takes a left-hand operand of type 'std::_Vector_const_iterator<_Myvec>' (or there is no acceptable conversion)
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(522): could be 'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(527): or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(532): or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(443): or       'bool std::operator !=(const std::error_code &,const std::error_condition &) throw()' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(450): or       'bool std::operator !=(const std::error_condition &,const std::error_code &) throw()' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(208): or       'bool std::_Vector_const_iterator<_Myvec>::operator !=(const std::_Vector_const_iterator<_Myvec> &) const'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 while trying to match the argument list '(std::_Vector_const_iterator<_Myvec>, std::_Vector_iterator<_Myvec>)'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 and
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(158): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'std::_Vector_const_iterator<_Myvec>' (or there is no acceptable conversion)
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(507): could be 'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(512): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\exception(517): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(426): or       'bool std::operator ==(const std::error_code &,const std::error_condition &) throw()' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\system_error(434): or       'bool std::operator ==(const std::error_condition &,const std::error_code &) throw()' [found using argument-dependent lookup]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(202): or       'bool std::_Vector_const_iterator<_Myvec>::operator ==(const std::_Vector_const_iterator<_Myvec> &) const'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+                 while trying to match the argument list '(std::_Vector_const_iterator<_Myvec>, std::wstring)'
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(159): error C2065: 'r' : undeclared identifier
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(159): error C2227: left of '->Next' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(160): warning C4172: returning address of local variable or temporary
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\dice.h(176): error C2679: binary '=' : no operator found which takes a right-hand operand of type 'std::vector<_Ty>' (or there is no acceptable conversion)
+                 with
+                 [
+                     _Ty=std::wstring
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(802): could be 'std::vector<_Ty> &std::vector<_Ty>::operator =(std::vector<_Ty> &&)'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(903): or       'std::vector<_Ty> &std::vector<_Ty>::operator =(const std::vector<_Ty> &)'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+                 while trying to match the argument list '(std::vector<_Ty>, std::vector<_Ty>)'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+                 and
+                 [
+                     _Ty=std::wstring
+                 ]
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\cplusplusapp.cpp(73): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\cplusplusapp.cpp(88): error C2065: 'Dice' : undeclared identifier
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\cplusplusapp.cpp(88): error C2146: syntax error : missing ';' before identifier 'dice'
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\cplusplusapp.cpp(88): error C2065: 'dice' : undeclared identifier
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\cplusplusapp.cpp(90): error C2065: 'dice' : undeclared identifier
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\cplusplusapp.cpp(90): error C2228: left of '.setNumberOfDice' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\cplusplusapp.cpp(93): error C2065: 'dice' : undeclared identifier
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\cplusplusapp.cpp(93): error C2228: left of '.setMultiDice' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\cplusplusapp.cpp(96): error C2065: 'dice' : undeclared identifier
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\cplusplusapp.cpp(96): error C2228: left of '.rollDice' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\cplusplusapp.cpp(99): error C2065: 'dice' : undeclared identifier
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\cplusplusapp.cpp(99): error C2228: left of '.getSelectedDice' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\cplusplusapp.cpp(101): error C2065: 'dice' : undeclared identifier
+     1>c:\users\mark\documents\visual studio 2012\projects\cplusplusapp\cplusplusapp\cplusplusapp.cpp(101): error C2228: left of '.getNumberOfDice' must have class/struct/union
+                 type is ''unknown-type''
+         Generating Code...
+     1>Done Building Project "c:\Users\Mark\documents\visual studio 2012\Projects\CPlusPlusApp\CPlusPlusApp\CPlusPlusApp.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.93

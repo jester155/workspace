@@ -1,0 +1,16 @@
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Mesopotopia\bin\Debug\Mesopotopia.exe.config
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Mesopotopia\bin\Debug\Mesopotopia.exe
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Mesopotopia\bin\Debug\Mesopotopia.pdb
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Mesopotopia\obj\Debug\MesopotopiaAndDragons.csprojResolveAssemblyReference.cache
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Mesopotopia\obj\Debug\Mesopotopia.exe
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Mesopotopia\obj\Debug\Mesopotopia.pdb
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Mesopotopia\bin\Debug\Monsters.dll
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Mesopotopia\bin\Debug\Monsters.pdb
+F:\Coding\Workspace\Mesopotopia\Mesopotopia\bin\Debug\Mesopotopia.exe.config
+F:\Coding\Workspace\Mesopotopia\Mesopotopia\obj\Debug\Mesopotopia.exe
+F:\Coding\Workspace\Mesopotopia\Mesopotopia\obj\Debug\Mesopotopia.pdb
+F:\Coding\Workspace\Mesopotopia\Mesopotopia\bin\Debug\Mesopotopia.exe
+F:\Coding\Workspace\Mesopotopia\Mesopotopia\bin\Debug\Mesopotopia.pdb
+F:\Coding\Workspace\Mesopotopia\Mesopotopia\bin\Debug\Monsters.dll
+F:\Coding\Workspace\Mesopotopia\Mesopotopia\bin\Debug\Monsters.pdb
+F:\Coding\Workspace\Mesopotopia\Mesopotopia\obj\Debug\MesopotopiaAndDragons.csprojResolveAssemblyReference.cache

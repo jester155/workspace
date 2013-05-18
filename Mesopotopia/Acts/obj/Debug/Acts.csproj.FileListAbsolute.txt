@@ -1,0 +1,10 @@
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Acts\bin\Debug\Acts.dll
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Acts\bin\Debug\Acts.pdb
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Acts\obj\Debug\Acts.csprojResolveAssemblyReference.cache
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Acts\obj\Debug\Acts.dll
+c:\users\mark\documents\visual studio 2012\Projects\Mesopotopia\Acts\obj\Debug\Acts.pdb
+F:\Coding\Workspace\Mesopotopia\Acts\bin\Debug\Acts.dll
+F:\Coding\Workspace\Mesopotopia\Acts\bin\Debug\Acts.pdb
+F:\Coding\Workspace\Mesopotopia\Acts\obj\Debug\Acts.csprojResolveAssemblyReference.cache
+F:\Coding\Workspace\Mesopotopia\Acts\obj\Debug\Acts.dll
+F:\Coding\Workspace\Mesopotopia\Acts\obj\Debug\Acts.pdb

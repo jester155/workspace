@@ -1,0 +1,9 @@
+c:\users\mark\documents\visual studio 2012\Projects\Cars\Cars\bin\Debug\Cars.exe.config
+c:\users\mark\documents\visual studio 2012\Projects\Cars\Cars\bin\Debug\Cars.exe
+c:\users\mark\documents\visual studio 2012\Projects\Cars\Cars\bin\Debug\Cars.pdb
+c:\users\mark\documents\visual studio 2012\Projects\Cars\Cars\obj\Debug\Cars.csprojResolveAssemblyReference.cache
+c:\users\mark\documents\visual studio 2012\Projects\Cars\Cars\obj\Debug\Cars.Properties.Resources.resources
+c:\users\mark\documents\visual studio 2012\Projects\Cars\Cars\obj\Debug\Cars.csproj.GenerateResource.Cache
+c:\users\mark\documents\visual studio 2012\Projects\Cars\Cars\obj\Debug\Cars.exe
+c:\users\mark\documents\visual studio 2012\Projects\Cars\Cars\obj\Debug\Cars.pdb
+C:\Users\Mark\documents\visual studio 2012\Projects\Cars\Cars\obj\Debug\Cars.MainWindow.resources

@@ -1,0 +1,8 @@
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\GameLogicLibrary\VBGameLogicLibrary\obj\Debug\VBGameLogicLibrary.Resources.resources
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\GameLogicLibrary\VBGameLogicLibrary\obj\Debug\VBGameLogicLibrary.vbproj.GenerateResource.Cache
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\GameLogicLibrary\VBGameLogicLibrary\bin\Debug\VBGameLogicLibrary.dll
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\GameLogicLibrary\VBGameLogicLibrary\bin\Debug\VBGameLogicLibrary.pdb
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\GameLogicLibrary\VBGameLogicLibrary\bin\Debug\VBGameLogicLibrary.xml
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\GameLogicLibrary\VBGameLogicLibrary\obj\Debug\VBGameLogicLibrary.dll
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\GameLogicLibrary\VBGameLogicLibrary\obj\Debug\VBGameLogicLibrary.xml
+C:\Users\Mark\Documents\Visual Studio 2012\Projects\GameLogicLibrary\VBGameLogicLibrary\obj\Debug\VBGameLogicLibrary.pdb
